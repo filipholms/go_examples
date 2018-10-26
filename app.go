@@ -46,7 +46,7 @@ func main() {
 
 
 
-	/*var id_persona int
+	var id_persona int
 	var nombre, apellido, rut string
 
 	err = db.QueryRow("SELECT * FROM persona").Scan(&id_persona, &nombre, &apellido, &rut)
@@ -55,7 +55,7 @@ func main() {
 		panic(err.Error())
 	}
 
-	fmt.Println(id_persona, nombre, apellido, rut)*/
+	fmt.Println(id_persona, nombre, apellido, rut)
 
 
 
